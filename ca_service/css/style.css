@@ -1,9 +1,12 @@
 body {
-
+  font-family: font-family: "Hiragino Kaku Gothic ProN" , "游ゴシック" , "Yu Gothic" , "メイリオ", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.7;
 }
 
 .world {
   margin: 0 auto;
+  position: relative;
   background-image: url("../img/background.png");
   background-position: top;
   background-repeat: no-repeat;
@@ -15,22 +18,126 @@ body {
 .header {
   width: 100%;
   height: 88px;
-  display: table;
+  position: absolute;
+  top: 0;
+  left:0;
+  z-index: 100;
+
+}
+
+.header h1{
+  position: absolute;
+  top: 20px;
+  left:106px;
+
 }
 
 .jp_en {
-  display: table-cell;
-  vertical-align: middle;
-  float: right;
+  position: absolute;
+  top: 29px;
+  right:93px;
+
 }
+
+#firstview{
+  position: relative;
+  width: 1300px;
+  height: 741px;
+}
+
+#GF {
+  position: absolute;
+  top: 376px;
+  left:47px;
+}
+
+#GF p{
+  width: 227px;
+  margin-top: 35px;
+  font-size: 12px;
+  color: #ffffff;
+}
+#GF img{
+  margin-top: 0;
+}
+
+.BG2{
+  position: absolute;
+  top: 740;
+  left:0px;
+}
+
+.search{
+  position: absolute;
+  top: 612px;
+  right:40px;
+  z-index: 1111111111;
+}
+
+.carsol{
+  position: absolute;
+  top: 288px;
+  right:34px;
+    z-index: 111111111757584957861;
+}
+
+
+.copy{
+  position: absolute;
+  z-index: 1000000;
+  top: 135px;
+  left:149px;
+  width: 227px;
+  font-size: 24px;
+}
+
+.cube{
+  position: absolute;
+  width: 845px;
+  height: 741px;
+  overflow: hidden;
+  top: 0px;
+  right:59px;
+}
+
+.wrapwhat{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+#ranking h2{
+font-size: 40px;
+width: 200px;
+margin: 0 auto;
+}
+
+#ranking p{
+  width: 70px;
+  margin: 0 auto;
+  border-top: 2px #25ba92 solid;
+  padding-top: 17px;
+
+
+}
+
+#wraprank{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+
+
 
 img {
 vertical-align: bottom;
 }
 video {
-position: fixed;
-right: 0;
+position: absolute;;
 top: 0;
+width: 1300px;
+left: -150px;
 z-index: 1;
 }
 .first {
